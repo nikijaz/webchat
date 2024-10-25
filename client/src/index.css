@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "TildaSans";
+    src: url(./assets/TildaSans-VF.ttf) format("opentype");
+}
+
+* {
+    font-family: "TildaSans";
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.main {
+    background: rgba(255, 255, 255, 0.56);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.7px);
+    -webkit-backdrop-filter: blur(9.7px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.22);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.message {
+    background: rgba(255, 255, 255, 0.52);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
